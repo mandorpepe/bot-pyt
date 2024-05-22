@@ -15,7 +15,7 @@ BOT_TOKEN = config.BOT_TOKEN
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
-client = Client('y0_AgAAAAAhthTgAAG8XgAAAAD--2rKAAAATeO76FVHHaRpEhTi_HgrkNBYQw').init()
+client = Client(config.YA_TOKEN).init()
 
 # Кнопки в боте
 button_1 = KeyboardButton(text='Помощь')
